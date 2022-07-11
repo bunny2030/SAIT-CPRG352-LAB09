@@ -1,0 +1,45 @@
+body
+{
+    background-image: linear-gradient(to right, #36d1dc, #5b86e5)
+}
+.parentContainer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container
+{
+    display: inline-block;
+    margin: 10px 4px;
+    box-shadow: 0px 14px 34px black;
+}
+.addContainer
+{
+    /*border: 2px solid black;*/
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+.midContainer
+{
+    /*border: 2px solid black;*/
+    border-radius: 14px;
+    padding: 10px 15px;
+    background-color: white;
+    z-index: -1;
+}
+.editContainer
+{
+    /*border: 2px solid black;*/
+    border-radius: 10px;
+    padding: 20px 11px;
+ 
+}
+.side
+{
+    background-image: linear-gradient(45deg, #8bff8b, #00d0ff);
+}
+.messages
+{
+    background-image: linear-gradient(45deg, green, orange);
+}
